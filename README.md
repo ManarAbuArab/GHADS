@@ -311,7 +311,7 @@ Through this project, practical experience was gained in:
 
 ## 👩‍💻 Developed By
 
-**Manar Abu Arab**
+**Manar Abu Arab** &
 **Areej Kuhail**
 
 ### 🎓 Teaching Assistant
