@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.LoginController"
+            stylesheets="@/css/login-style.css"
+            prefWidth="500" prefHeight="400">
+
+    <VBox alignment="CENTER" spacing="20"
+          AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0"
+          AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+
+        <padding><Insets top="40" bottom="40" left="60" right="60"/></padding>
+
+        <Label text="GHADS" styleClass="title-label"/>
+        <Label text="Gaza Humanitarian Aid Distribution System" styleClass="subtitle-label"/>
+
+        <TextField fx:id="usernameField" promptText="Username" styleClass="input-field"/>
+        <PasswordField fx:id="passwordField" promptText="Password" styleClass="input-field"/>
+
+        <Label fx:id="errorLabel" styleClass="error-label" visible="false"/>
+
+        <Button text="Login" onAction="#handleLogin" styleClass="login-btn"/>
+
+    </VBox>
+</AnchorPane>
